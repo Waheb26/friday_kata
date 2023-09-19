@@ -1,0 +1,28 @@
+.skill-rating {
+  margin-bottom: 10px;
+}
+
+.rating-points {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-left: 23.5rem;
+  border-radius: 5px;
+}
+
+.rating-points span {
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+.rating-points .filled {
+  background-color: #d09e16;
+  border: 1px solid #b78c16;
+}
+
+.rating-points span:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+}
